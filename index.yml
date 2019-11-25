@@ -1,2 +1,5 @@
+node_js:
+  - 11
+
 install: yarn --ignore-scripts
 after_script: "yarn add coveralls && cat ./coverage/lcov.info | coveralls"
